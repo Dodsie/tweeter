@@ -1,15 +1,22 @@
 .header {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   width: 100%;
-  height: 400px;
-  padding-top: 120px;
-  background-color: #50d5e6;
-  background-image: url("https://www.transparenttextures.com/patterns/foggy-birds.png");
-  
+  background-color: #4056A1;
+  background-image: url("https://www.transparenttextures.com/patterns/diagonal-waves.png");
+  color: #FFFFFF;
+  padding-top: 8em;
+  padding-bottom: 1em;
 }
-.header#image-class {
-  margin-bottom: 0;
-  
-  
+
+.header-profile {
+  margin: 0 auto;
+  max-width: 260px;
+}
+
+.header-profile img {
+  width: 100%;
+}
+
+.header-username {
+  font-size: 2em;
 }

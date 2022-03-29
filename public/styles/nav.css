@@ -1,37 +1,29 @@
-nav {
+.navbar-top {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   height: 120px;
-  top: 0;
   width: 100%;
   background-color: #4056A1;
   color: #FFFFFF;
   position: fixed;
+  top: 0;
   z-index: 10;
+  padding: 0 1.5em;
 }
 
-span {
-  display: flex;
+.navbar-brand {
   font-family: 'Bungee', sans-serif;
-  margin-left: 1.5em;
   font-size: 42px;
-  
 }
 
-div#newTweet {
+.navbar-menu {
   display: flex;
-  margin-right: 1.5em;
-  place-items: center;
   flex-direction: column;
+  align-items: center;
 }
 
-div#angleLink {
-  display: flex;
+.navbar-menu i {
   color: red;
-}
-
-#newTweet p{
-  margin: 0;
+  margin-top: -10px;
 }
