@@ -1,0 +1,37 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+  top: 0;
+  width: 100%;
+  background-color: #4056A1;
+  color: #FFFFFF;
+  position: fixed;
+  z-index: 10;
+}
+
+span {
+  display: flex;
+  font-family: 'Bungee', sans-serif;
+  margin-left: 1.5em;
+  font-size: 42px;
+  
+}
+
+div#newTweet {
+  display: flex;
+  margin-right: 1.5em;
+  place-items: center;
+  flex-direction: column;
+}
+
+div#angleLink {
+  display: flex;
+  color: red;
+}
+
+#newTweet p{
+  margin: 0;
+}
