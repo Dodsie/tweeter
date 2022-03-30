@@ -13,7 +13,7 @@
 .new-tweet form textarea {
   border: none;
   outline: none;
-  border-bottom: 3px solid #545149;
+  border-bottom: 4px solid #545149;
   margin-bottom: 1em;
   padding: 0.8em;
   font: bold;

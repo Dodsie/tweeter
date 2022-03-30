@@ -1,0 +1,64 @@
+#main-container {
+  padding-top: 5em;
+}
+
+.tweet-container {
+  border: 4px solid black;
+}
+
+.tweets-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 1.5em;
+  font-size: 28px;
+}
+
+
+.tweets-header #tweet-handle {
+  color: lightgray;
+}
+
+#tweet-body {
+  margin-left: 1.5em;
+  font-size: 28px;
+}
+
+.tweets-footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 4px solid black;
+  align-items: center;
+  margin: 0 1.5em;
+}
+
+.tweets-footer p {
+  padding-left: 1.5em;
+}
+
+.tweets-actions {
+  padding-right: 1.5em;
+  color: #4056A1;
+}
+
+.tweets-actions #retweet {
+  margin: 0 .8em;
+}
+
+/* Hover animations Below */
+
+.tweet-container:hover {
+  box-shadow: 5px 10px;
+}
+
+.tweets-actions #report-flag:hover {
+  color: orange;
+}
+
+.tweets-actions #retweet:hover {
+  color: orange;
+}
+
+.tweets-actions #like:hover {
+  color: orange;
+}
