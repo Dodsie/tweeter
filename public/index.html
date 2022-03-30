@@ -24,6 +24,8 @@
 
     <!-- App JS -->
     <script type="text/javascript" src="/scripts/client.js"></script>
+    <script type="text/javascript" src="/scripts/composer-char-counter.js"></script>
+
   </head>
   <body>
     <!-- Top nav bar (fixed) -->
@@ -51,9 +53,24 @@
           <textarea name="text" id="tweet-text"></textarea>
           <div class="new-tweet-submit">
             <button type="submit">Tweet</button>
-            <output name="counter" class="counter" for="tweet-text" id="counter">140</output>
+            <output for="tweet-text" id="counter">140</output>
           </div>
         </form>
+      </section>
+    <!-- Tweet-Specific (main) content Below -->
+      <section id="main-container">
+        <article class="tweet-container">
+          <header>
+            <!-- <img> -->
+            <p>Bailey</p>
+            <p>@Bdods</p>
+          </header>
+          <p>If I have seen further it is by standing on the shoulders of giants!</p>
+          <footer>
+            <p>10 days ago</p>
+            
+          </footer>
+        </article>
       </section>
     </main>
 

@@ -16,7 +16,6 @@ html {
 
 body {
   color: #545149;
-  /* background-color: #87839c; */
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -28,9 +27,4 @@ body {
   width: 90%;
   margin: 1em auto;
   padding: 1em;
-  /* color: #FFFFFF; */
-  /* background-color: #87839c; */
-  /* background-image: url("https://www.transparenttextures.com/patterns/diagonal-waves.png"); */
-
-
 }
