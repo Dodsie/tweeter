@@ -4,6 +4,7 @@
 
 .tweet-container {
   border: 4px solid black;
+  margin: 1em;
 }
 
 .tweets-header {
@@ -14,12 +15,22 @@
   font-size: 28px;
 }
 
+.tweet-profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
-.tweets-header #tweet-handle {
+.tweet-profile img {
+  padding-right: 0.8em;
+  height: 50px;
+}
+
+.tweet-container .tweet-handle {
   color: lightgray;
 }
 
-#tweet-body {
+.tweet-body {
   margin-left: 1.5em;
   font-size: 28px;
 }

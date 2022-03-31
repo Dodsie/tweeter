@@ -1,7 +1,7 @@
 .new-tweet form {
   display: flex;
   flex-direction: column;
-
+  
 }
 
 .new-tweet form label {
