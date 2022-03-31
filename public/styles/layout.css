@@ -11,12 +11,13 @@ html {
 }
 
 /*
- * Global layout stuff
+ * Global layout
  */
 
 body {
   color: #545149;
   font-family: 'Source Sans Pro', sans-serif;
+  background-color: antiquewhite;
 }
 
 /*
@@ -27,4 +28,5 @@ body {
   width: 90%;
   margin: 1em auto;
   padding: 1em;
+  background-color: antiquewhite;
 }

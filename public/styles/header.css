@@ -1,11 +1,11 @@
 .header {
   text-align: center;
   width: 100%;
-  background-color: #4056A1;
-  background-image: url("https://www.transparenttextures.com/patterns/diagonal-waves.png");
-  color: #FFFFFF;
   padding-top: 8em;
   padding-bottom: 1em;
+  background-color: #a1a17a;
+  background-image: url("https://www.transparenttextures.com/patterns/black-linen-2.png");
+  color: #FFFFFF;
 }
 
 .header-profile {
