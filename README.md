@@ -11,12 +11,12 @@
   - The Tweet text.
   - And actions on the tweet (re-tweet, like, flag/report).
 
-  This application was built with responsive web design and bandwidth in mind giving the user an optimized experience with any screen, and any internet connection.
+  This application was built with responsive web design in mind giving the user an optimized experience with any screen.
   
 ### Attention this app was created for learning purposes only.
-#### Screenshots (Desktop, Ipad, Iphone).
+#### Screenshots (Desktop, Ipad (landscape), Iphone).
 !["Desktop"](Screenshots/Desktop-Tweeter.png)
-!["Ipad"](Screenshots/Ipad.tweeter.png)
+!["Ipad-landscape"](Screenshots/Ipad.tweeter.png)
 !["Iphone"](Screenshots/Iphone-tweeter.png)
 ## Getting Started
 
