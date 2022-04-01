@@ -1,5 +1,9 @@
+/* Main (Tweet display) Styling 
+index.html - line 65 -> line 68 
+refer to (client.js) line 4 -> createTweetElement -> HTML -> line 12 -> line 24 */
+
 #main-container {
-  padding-top: 5em;
+  padding-top: 3em;
 }
 
 .tweet-container {
@@ -31,8 +35,9 @@
 }
 
 .tweet-body {
-  margin-left: 1.5em;
+  margin: 0 1em;
   font-size: 28px;
+  overflow-wrap:break-word;
 }
 
 .tweets-footer {
@@ -72,4 +77,12 @@
 
 .tweets-actions #like:hover {
   color: orange;
+}
+
+/* Will render for screen viewers over 1024px */
+
+@media only screen and (min-width: 1024px) {
+  .tweet-container {
+    margin: 1em 0%;
+  }
 }

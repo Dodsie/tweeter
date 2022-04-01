@@ -1,3 +1,5 @@
+/* Navbar(top) Styling index.html - line 34 -> line 40 */
+
 .navbar-top {
   display: flex;
   justify-content: space-between;
@@ -8,7 +10,8 @@
   top: 0;
   z-index: 10;
   padding: 0 1.5em;
-  background-color: #4056A1;
+  background-color: #f7bf08;
+  background-image: url("https://www.transparenttextures.com/patterns/brushed-alum-dark.png");
   color: #FFFFFF;
 }
 
@@ -24,7 +27,24 @@
   font-size: 24px;
 }
 
-.navbar-menu i {
+.navbar-menu button {
+  border: none;
+  background: none;
   color: red;
   margin-top: -20px;
 }
+
+.navbar-menu button:hover {
+  color: #0ae4d9;
+}
+
+/* Will render for screen viewers over 1024px */
+
+@media only screen and (min-width: 1024px) {
+  .navbar-top {
+    background-color: #4056A1;
+    background-image: none;
+  }
+}
+
+

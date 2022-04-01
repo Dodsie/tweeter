@@ -1,10 +1,12 @@
+/* Header Styling - index.html - line 43 -> line 48 */
+
 .header {
   text-align: center;
   width: 100%;
   padding-top: 8em;
   padding-bottom: 1em;
-  background-color: #a1a17a;
-  background-image: url("https://www.transparenttextures.com/patterns/black-linen-2.png");
+  background-color: #f7bf08;
+  background-image: url("https://www.transparenttextures.com/patterns/brushed-alum-dark.png");
   color: #FFFFFF;
 }
 
@@ -19,4 +21,20 @@
 
 .header-username {
   font-size: 2em;
+}
+
+/* Will render for screen viewers over 1024px */
+
+@media only screen and (min-width: 1024px) {
+  .header {
+    width: 35%;
+    height: 33%;
+    margin: 15% 3%;
+    padding: 0;
+}
+ .header-profile img {
+   margin-top: 1em;
+   margin-bottom: -1em;
+   width: 85%;
+ }
 }

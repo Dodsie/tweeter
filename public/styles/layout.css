@@ -3,6 +3,9 @@
  * https://css-tricks.com/international-box-sizing-awareness-day/
  * Do not modify these two selectors, please
  */
+
+ /* Globsl Styling index.html - line 2 -> line 70 */
+
 html {
   box-sizing: border-box;
 }
@@ -29,4 +32,18 @@ body {
   margin: 1em auto;
   padding: 1em;
   background-color: antiquewhite;
+}
+
+/* Will render for screen viewers over 1024px */
+
+@media only screen and (min-width: 1024px) {
+  main.container {
+    margin: 15% 3%;
+    padding: 0%;
+    max-width: 60%;
+  }
+  body {
+    display: flex;
+    flex-direction: row;
+  }
 }

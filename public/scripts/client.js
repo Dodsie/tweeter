@@ -1,11 +1,6 @@
-/*
- * Client-side JS logic goes here
- * jQuery is already loaded
- * Reminder: Use (and do all your DOM work in) jQuery's document ready function
- */
+//This script will load any data on server startup before the post method will be ready for any submissions, it will retrieve any tweets within the server.
 
-
-// Generates DOM structure with interpolated values from JSON/Objects.
+// Generates DOM structure with interpolated values from JSON/Objects, (runs 2nd when post is called).
 const createTweetElement = (tweetObject) => {
   const escape = function (str) {
     let div = document.createElement("div");
@@ -29,20 +24,20 @@ const createTweetElement = (tweetObject) => {
       <i id="report-flag" class="fa-solid fa-flag"></i>
       <i id="retweet" class="fa-solid fa-retweet"></i>
       <i id="like" class="fa-solid fa-heart"></i>
-  </div>
-  </footer>
-</article>
+    </div>
+    </footer>
+  </article>
 `);
   return $tweet;
 };
-// Loops array of objects, appending each obeject leveraging (^CTE^) function above.
+// Loops array of objects, appending each obeject leveraging (^CTE^) function above (runs 3rd when post is called).
 const renderTweets = (tweets) => {
   for (const tweet of tweets) {
     $('#main-container').prepend(createTweetElement(tweet));
   }
   return;
 };
-// GetTweets asynchronously retrieve tweets within the server.
+// loadTweets asynchronously retrieve tweets within the server, will empty current posts. (runs 4th when post is called)
 const loadTweets = () => {
   $.ajax({
     url: "http://localhost:8080/tweets",
@@ -52,14 +47,14 @@ const loadTweets = () => {
     renderTweets(data);
   });
 };
-// Get tweets is called to retrieve tweets and display them on the DOM before jQuery can start.
+// loadTweets is called to retrieve the tweets, will run after loadTweets above is complete on a tweet submission. (runs 5th when post is called)
 loadTweets();
 
 
-
-
 $(() => {
-// Listener, takes action on submit event.
+  //(runs 1st asynchronously when post is called through submit event on form using the tweet button)
+// JQUERY Listener, takes action on submit event, conditionals provided to prompt error message on client side. (exceed chars limit/ empty string).
+// If conditionals are false we will make a post request will made to the server and supply the data so our function above can do the structure/reading/emptying/loading)
   $('.tweet-form').on('submit', function(event) {
     event.preventDefault();
     const $tweetText =  $('#tweet-text').val();

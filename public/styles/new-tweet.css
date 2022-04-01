@@ -1,3 +1,5 @@
+/*  NewTweet/Form index.html - line 52 -> line 63 */
+
 .new-tweet form {
   display: flex;
   flex-direction: column;
@@ -28,9 +30,10 @@
   background-color: antiquewhite;
   margin-bottom: 1em;
   height: 12px;
-  padding: 0.8em;
-  font-size: 20px;
+  padding: 1em;
+  font-size: 18px;
   font: bold;
+  overflow-y: hidden
 }
 
 .new-tweet-submit {
@@ -40,7 +43,10 @@
   font-size: 1.5em;
 }
 
+/* Will render for screen viewers over 1024px */
+
 .new-tweet-submit button {
   color: #FFFFFF;
   background-color: #4056A1;
 }
+
