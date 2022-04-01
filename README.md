@@ -14,7 +14,10 @@
   This application was built with responsive web design and bandwidth in mind giving the user an optimized experience with any screen, and any internet connection.
   
 ### Attention this app was created for learning purposes only.
-
+#### Screenshots (Desktop, Ipad, Iphone).
+!["Desktop"](Screenshots/Desktop-Tweeter.png)
+!["Ipad"](Screenshots/Ipad.tweeter.png)
+!["Iphone"](Screenshots/Iphone-tweeter.png)
 ## Getting Started
 
 1. [Create](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) a new repository using this repository as a template.
